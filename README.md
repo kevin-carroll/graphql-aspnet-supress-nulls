@@ -43,4 +43,4 @@ Response:
 }
 ```
 
-Note: I don't believe this is a spec compliant implementation. The user requested a nullable field that produced a valid `null` value, yet it was not returned. The query is also indeterminate since the structure of the output is dependent on variable input parameters and not the query text as provided.
+Note: I don't believe this is a spec compliant implementation. The user requested a nullable field that produced a valid `null` value, yet it was not returned. The query is also indeterminate since the structure of the output is varies based on field values and not the query text as provided.
